@@ -9,7 +9,7 @@ from .models import Chat
 from django.utils import timezone
 
 
-openai_api_key = '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'
+openai_api_key ='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'
 openai.api_key = openai_api_key
 
 def ask_openai(message):
